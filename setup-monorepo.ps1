@@ -20,4 +20,8 @@ foreach ($dir in @("frontend", "backend", "scripts")) {
 # Git add, commit e push
 git add .
 git commit -m "feat: estrutura inicial monorepo com frontend, backend e scripts"
+git branch -M master
+git remote add origin https://github.com/jcarlos74/Velzon-App.git
 git push origin master
+
+
