@@ -1,0 +1,382 @@
+{
+  "ALL_SELECTED": "Todos selecionados",
+  "CANCEL": "Cancelar",
+  "CLEAR_ALL_FILTERS": "Limpar todos os filtros",
+  "CLEAR_ALL_GROUPING": "Limpar todos os agrupamentos",
+  "CLEAR_ALL_SORTING": "Limpar toda a classificação",
+  "CLEAR_PINNING": "Descongelar colunas/linhas",
+  "COLLAPSE_ALL_GROUPS": "Recolher todos os grupos",
+  "COLUMNS": "Colunas",
+  "COLUMN_RESIZE_BY_CONTENT": "Redimensionar por conteúdo",
+  "COMMANDS": "Comandos",
+  "CONTAINS": "Contém",
+  "COPY": "Copiar",
+  "EMPTY_DATA_WARNING_MESSAGE": "Nenhum dado para exibir.",
+  "ENDS_WITH": "Termina com",
+  "EQUALS": "Igual",
+  "EQUAL_TO": "Igual a",
+  "EXPAND_ALL_GROUPS": "Expandir todos os grupos",
+  "EXPORT_TO_CSV": "Exportar em formato CSV",
+  "EXPORT_TO_EXCEL": "Exportar para Excel",
+  "EXPORT_TO_TAB_DELIMITED": "Exportar em formato de texto (delimitado por tabulação)",
+  "EXPORT_TO_TEXT_FORMAT": "Exportar em formato de texto",
+  "FREEZE_COLUMNS": "Congelar Colunas",
+  "FROM_TO_OF_TOTAL_ITEMS": "{{from}}-{{to}} de {{totalItems}} itens",
+  "FORCE_FIT_COLUMNS": "Forçar ajuste de colunas",
+  "INVALID_FLOAT": "O número deve ser válido e ter no máximo {{maxDecimal}} decimais.",
+  "GREATER_THAN": "Maior que",
+  "GREATER_THAN_OR_EQUAL_TO": "Greater than or equal to",
+  "GROUP_BY": "Agrupar por",
+  "HIDE_COLUMN": "Ocultar coluna",
+  "IN_COLLECTION_SEPERATED_BY_COMMA": "Os itens de pesquisa em uma coleção devem ser separados por uma vírgula (a,b)",
+  "ITEMS": "itens",
+  "ITEMS_PER_PAGE": "itens por página",
+  "LAST_UPDATE": "Última atualização",
+  "LESS_THAN": "Menor que",
+  "LESS_THAN_OR_EQUAL_TO": "Menor que ou igual a",
+  "NOT_EQUAL_TO": "Não igual a",
+  "NOT_IN_COLLECTION_SEPERATED_BY_COMMA": "Os itens de pesquisa que não estão em uma coleção devem ser separados por uma vírgula (a,b)",
+  "OF": "de",
+  "OK": "OK",
+  "PAGE": "Página",
+  "PAGE_X_OF_Y": "Página {{x}} de {{y}}",
+  "REFRESH_DATASET": "Refresh Dataset",
+  "REMOVE_FILTER": "Remover filtro",
+  "REMOVE_SORT": "Remover Ordenação",
+  "SAVE": "Salvar",
+  "SELECT_ALL": "Selecionar tudo",
+  "SORT_ASCENDING": "Ordernação crescente",
+  "SORT_DESCENDING": "Ordenação decrescente",
+  "STARTS_WITH": "Começa com",
+  "SYNCHRONOUS_RESIZE": "Redimensionamento síncrono",
+  "TOGGLE_FILTER_ROW": "Alternar linha de filtro",
+  "TOGGLE_PRE_HEADER_ROW": "Alternar linha de pré-cabeçalho",
+  "X_OF_Y_SELECTED": "# de % selecionado",
+  "BILLING": {
+    "ADDRESS": {
+      "STREET": "Rua do endereço de cobrança",
+      "ZIP": "CEP do endereço de cobrança"
+    },
+    "INFORMATION": "Informações de pagamento"
+  },
+  "CUSTOM_COMMANDS": "Comandos personalizados",
+  "DURATION": "Duração",
+  "COMPANY": "Empresa",
+  "COMPLETED": "Concluído",
+  "CHANGE_COMPLETED_FLAG": "Change Completed Flag",
+  "CHANGE_PRIORITY": "Change Priority",
+  "CUSTOMER_INFORMATION": "Informação ao Cliente",
+  "DELETE_ROW": "Excluir linha",
+  "DISABLED_COMMAND": "Comando desativado",
+  "FALSE": "False",
+  "FEMALE": "Female",
+  "FINISH": "Terminar",
+  "GENDER": "Gender",
+  "HELP": "Ajuda",
+  "HIGH": "High",
+  "LOW": "Low",
+  "MEDIUM": "Medium",
+  "MALE": "Male",
+  "NAME": "Name",
+  "NONE": "None",
+  "PERCENT_COMPLETE": "% Completo",
+  "PRIORITY": "Prioridade",
+  "START": "Começar",
+  "TASK_X": "Tarefa {{x}}",
+  "TITLE": "Titulo",
+  "TRUE": "True",
+  "HEADER": {
+    "MORE": {
+      "TEXT": "Mais"
+    }
+  },
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "MENU"
+    },
+    "DASHBOARD": {
+      "TEXT": "Dashboards",
+      "BADGE": "Novo",
+      "LIST": {
+        "ANALYTICS": "Análise",
+        "CRM": "CRM",
+        "ECOMMERCE": "Ecommerce",
+        "CRYPTO": "Crypto",
+        "PROJECTS": "Projetos",
+        "NFT": "NFT",
+        "JOB": "Job"
+      }
+    },
+    "APPS": {
+      "TEXT": "Aplicativos",
+      "LIST": {
+        "CALENDAR": "Calendário",
+        "MAINCALENDAR": "Calendário Principalr",
+        "MONTHGRID": "Grade do mês",
+        "CHAT": "Chat",
+        "EMAIL": "Email",
+        "MAILBOX": "Mailbox",
+        "MAILTEMPLATES": "Email Templates",
+        "BASICACTION": "Basic Action",
+        "ECOMMERCEACTION": "Ecommerce Action",
+        "ECOMMERCE": "Ecommerce",
+        "PRODUCTS": "Products",
+        "PRODUCTDETAILS": "Product Details",
+        "CREATEPRODUCT": "Create Product",
+        "ORDERS": "Orders",
+        "ORDERDETAILS": "Order Details",
+        "CUSTOMERS": "Customers",
+        "SHOPPINGCART": "Shopping Cart",
+        "CHECKOUT": "Checkout",
+        "SELLERS": "Sellers",
+        "SELLERDETAILS": "Seller Details",
+        "PROJECTS": "Projects",
+        "LIST": "List",
+        "OVERVIEW": "Overview",
+        "CREATEPROJECT": "Create Project",
+        "TASK": "Tasks",
+        "KANBANBOARD": "Kanban Board",
+        "LISTVIEW": "List View",
+        "TASKDETAILS": "Task Details",
+        "CRM": "CRM",
+        "CONTACTS": "Contacts",
+        "COMPANIES": "Companies",
+        "DEALS": "Deals",
+        "LEADS": "Leads",
+        "CRYPTO": "Crypto",
+        "TRANSACTIONS": "Transactions",
+        "BUY&SELL": "Buy & Sell",
+        "MYWALLET": "My Wallet",
+        "ICOLIST": "ICO List",
+        "KYCAPPLICATION": "KYC Application",
+        "INVOICES": "Invoices",
+        "DETAILS": "Details",
+        "CREATEINVOICE": "Create Invoice",
+        "SUPPORTTICKETS": "Support Tickets",
+        "TICKETDETAILS": "Ticket Details",
+        "NFTMARKETPLACE": "NFT Marketplace",
+        "MARKETPLACE": "Marketplace",
+        "EXPLORENOW": "Explore Now",
+        "LIVEAUCTION": "Live Auction",
+        "ITEMDETAILS": "Item Details",
+        "COLLECTIONS": "Collections",
+        "CREATORS": "Creators",
+        "RANKING": "Ranking",
+        "WALLETCONNECT": "Wallet Connect",
+        "CREATENFT": "Create NFT",
+        "FILEMANAGER": "File Manager",
+        "TODO": "To Do",
+        "JOBS": "Jobs",
+        "STATISTICS": "Statistics",
+        "JOBLISTS": "Job Lists",
+        "GRID": "Grid",
+        "CANDIDATELISTS": "Candidate Lists",
+        "GRIDVIEW": "Grid View",
+        "APPLICATION": "Application",
+        "NEWJOB": "New Job",
+        "COMPANIESLIST": "Companies List",
+        "JOBCATEGORIES": "Job Categories",
+        "APIKEY": "API Key"
+      }
+    },
+    "LAYOUTS": {
+      "TEXT": "Layouts",
+      "LIST": {
+        "HORIZONTAL": "Horizontal",
+        "DETACHED": "Desanexado(",
+        "TWOCOLUMN": "Duas colunas",
+        "HOVERED": "Pairado"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Páginas"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "Autenticação",
+      "LIST": {
+        "BASIC": "Basic",
+        "COVER": "Cover",
+        "SIGNIN": "Sign In",
+        "SIGNUP": "Sign Up",
+        "PASSWORDRESET": "Redefinição de senha",
+        "PASSWORDCREATE": "Criar senha",
+        "LOCKSCREEN": "Tela de bloqueio",
+        "LOGOUT": "Sair",
+        "SUCCESSMESSAGE": "Mensagem de sucesso",
+        "TWOSTEPVERIFICATION": "Two Step Verification",
+        "ERRORS": "Erros",
+        "404BASIC": "404 Basic",
+        "404COVER": "404 Cover",
+        "404ALT": "404 Alt",
+        "500": "500",
+        "OFFLINE": "Offline Page"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Págians",
+      "LIST": {
+        "STARTER": "Starter",
+        "PROFILE": "Profile",
+        "SIMPLEPAGE": "Simple Page",
+        "SETTINGS": "Settings",
+        "TEAM": "Team",
+        "TIMELINE": "Timeline",
+        "FAQS": "FAQs",
+        "PRICING": "Pricing",
+        "GALLERY": "Gallery",
+        "MAINTENANCE": "Maintenance",
+        "COMINGSOON": "Coming Soon",
+        "SITEMAP": "Sitemap",
+        "SEARCHRESULTS": "Search Results",
+        "PRIVACYPOLICY": "Privacy Policy",
+        "TERMS&CONDITIONS": "Term & Conditions",
+        "BLOG": "Blog",
+        "BLOGLIST": "List View",
+        "BLOGOVERVIEW": "Overview",
+        "BLOGGRID": "Grid View"
+      }
+    },
+    "LANDING": {
+      "TEXT": "Landing",
+      "LIST": {
+        "ONEPAGE": "One Page",
+        "NFTLANDING": "NFT Landing",
+        "JOB": "Job"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Components"
+    },
+    "BASEUI": {
+      "TEXT": "Base UI",
+      "LIST": {
+        "ALERTS": "Alerts",
+        "BADGES": "Badges",
+        "BUTTONS": "Buttons",
+        "COLORS": "Colors",
+        "CARDS": "Cards",
+        "CAROUSEL": "Carousel",
+        "DROPDOWNS": "Dropdowns",
+        "GRID": "Grid",
+        "IMAGES": "Images",
+        "TABS": "Tabs",
+        "ACCORDION&COLLAPSE": "Accordion & Collapse",
+        "MODALS": "Modals",
+        "OFFCANVAS": "Offcanvas",
+        "PLACEHOLDERS": "Placeholders",
+        "PROGRESS": "Progress",
+        "NOTIFICATIONS": "Notifications",
+        "MEDIAOBJECT": "Media object",
+        "EMBEDVIDEO": "Embed Video",
+        "TYPOGRAPHY": "Typography",
+        "LISTS": "Lists",
+        "LINKS": "Links",
+        "GENERAL": "General",
+        "RIBBONS": "Ribbons",
+        "UTILITIES": "Utilities"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "Advance UI",
+      "LIST": {
+        "SWEETALERTS": "Sweet Alerts",
+        "NESTABLELIST": "Nestable List",
+        "SCROLLBAR": "Scrollbar",
+        "ANIMATION": "Animation",
+        "TOUR": "Tour",
+        "SWIPERSLIDER": "Swiper Slider",
+        "RATTINGS": "Ratings",
+        "HIGHLIGHT": "Highlight",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Widgets"
+    },
+    "FORMS": {
+      "TEXT": "Forms",
+      "LIST": {
+        "BASICELEMENTS": "Basic Elements",
+        "FORMSELECT": "Form Select",
+        "CHECKBOXS&RADIOS": "Checkboxs & Radios",
+        "PICKERS": "Pickers",
+        "INPUTMASKS": "Input Masks",
+        "ADVANCED": "Advanced",
+        "RANGESLIDER": "Range Slider",
+        "VALIDATION": "Validation",
+        "WIZARD": "Wizard",
+        "EDITORS": "Editors",
+        "FILEUPLOADS": "File Uploads",
+        "FORMLAYOUTS": "Form Layouts"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tables",
+      "LIST": {
+        "BASICTABLES": "Basic Tables",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "Datatables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Charts",
+      "LIST": {
+        "APEXCHARTS": "Apexcharts",
+        "LINE": "Line",
+        "AREA": "Area",
+        "COLUMN": "Column",
+        "BAR": "Bar",
+        "MIXED": "Mixed",
+        "TIMELINE": "Timeline",
+        "RANGEAREA": "Range Area",
+        "FUNNEL": "Funnel",
+        "SLOPE": "Slope",
+        "CANDLSTICK": "Candlstick",
+        "BOXPLOT": "Boxplot",
+        "BUBBLE": "Bubble",
+        "SCATTER": "Scatter",
+        "HEATMAP": "Heatmap",
+        "TREEMAP": "Treemap",
+        "PIE": "Pie",
+        "RADIALBAR": "Radialbar",
+        "RADAR": "Radar",
+        "POLARAREA": "Polar Area",
+        "CHARTJS": "Chartjs",
+        "ECHARTS": "Echarts"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Icons",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOXICONS": "Boxicons",
+        "MATERIALDESIGN": "Material Design",
+        "LINEAWESOME": "Line Awesome",
+        "FEATHER": "Feather",
+        "CRYPTOSVG": "Crypto SVG"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Mapas",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Vector",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Multi Level",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Level 1.1",
+          "2": "Level 1.2",
+          "LEVEL2": {
+            "1": "Level 2.1",
+            "2": "Level 2.2"
+          }
+        }
+      }
+    }
+  }
+}

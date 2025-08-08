@@ -1,0 +1,19 @@
+<div id="form-dlg" #targetModal class="col-md-12 control-section" style="height:550px;">
+    <ejs-dialog #defaultDialog [header]='header' [content]='content' [visible]='dialogVisible'
+            [isModal]='true' [showCloseIcon]='true' (close)='onClose()'
+            [position]='position'
+            [width]='width'
+            [animationSettings]='animationSettings'
+            [allowDragging]='dialogdragging'
+            [resizeHandles]='resizeHandleDirection'
+            [enableResize]='dialogResize'>
+
+            <ng-template #content>
+                <div class="content-wrapper" style="margin-bottom: 25px;">
+                    <ng-content></ng-content>
+                </div>
+            </ng-template>
+
+    
+    </ejs-dialog>
+</div>

@@ -1,0 +1,25 @@
+<sdk-breadcrumbs title="Grupos de Acesso" [breadcrumbItems]="breadCrumbItems"></sdk-breadcrumbs>
+
+<sdk-form-card [hasHeader]="false" [hasFooter]="false">
+
+        <div id="area-grid">
+            <sdk-datagrid
+            [dataSource]="dataSource"
+            [columns]="columns"
+            [rowHeight]="29"
+            [allowFiltering]="true"
+            (onAdd)="onAddRecord($event)"
+                
+                ></sdk-datagrid>
+        </div>
+
+      <div [style.display]="showAreaForm" id="areaForm">
+
+      </div>
+
+<div card-footer>
+    <button class="bg-blue-500 text-white px-4 py-2 rounded">Ação</button>
+</div>
+
+</sdk-form-card>
+

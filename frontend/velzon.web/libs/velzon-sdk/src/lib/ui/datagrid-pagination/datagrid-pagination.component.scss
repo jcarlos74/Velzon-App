@@ -1,0 +1,27 @@
+.input-page{
+    border: none;
+    outline: none;
+   }
+
+input.input-page:focus {
+  background-color: #dae7eb;
+}
+
+.page-spin {
+    border: none;
+    height: 32px;
+    background-color: transparent;
+    cursor: default;
+    animation: fa-spin 1.2s infinite linear !important;
+  }
+  .page-spin:hover {
+      background-color: transparent;
+
+}
+
+.link-flat
+{
+    //border: var(--slick-pagination-button-border, 0px none #b3b3b3) !important;
+   border: none !important;
+  width: 20px;
+}

@@ -1,0 +1,11 @@
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\bin\Debug\net9.0\Velzon.Core.deps.json
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\bin\Debug\net9.0\Velzon.Core.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\bin\Debug\net9.0\Velzon.Core.pdb
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\obj\Debug\net9.0\Velzon.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\obj\Debug\net9.0\Velzon.Core.AssemblyInfoInputs.cache
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\obj\Debug\net9.0\Velzon.Core.AssemblyInfo.cs
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\obj\Debug\net9.0\Velzon.Core.csproj.CoreCompileInputs.cache
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\obj\Debug\net9.0\Velzon.Core.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\obj\Debug\net9.0\refint\Velzon.Core.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\obj\Debug\net9.0\Velzon.Core.pdb
+E:\siltec\projetos\velzon\backend\src\Velzon.Core\obj\Debug\net9.0\ref\Velzon.Core.dll

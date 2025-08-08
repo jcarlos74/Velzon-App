@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+   	"emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+   	"paths": {
+				"@velzon.web/environments/dev": [ "apps/velzon-app/public/environments/environment.ts" ],
+				"@velzon.web/environments/prod": [ "apps/velzon-app/public/environments/environment.prod.ts" ],
+				"@velzon.web/core/services": [ "apps/velzon-app/src/app/core/services/index.ts" ],
+				"@velzon.web/core/model": [ "apps/velzon-app/src/app/core/models/index.ts" ],
+				"@velzon.web/core/enums": [ "apps/velzon-app/src/app/core/enums/httpStatusCode-enum.ts" ],
+				"@velzon.web/core/http-client": [ "apps/velzon-app/src/app/core/http-client.ts" ],
+				"@velzon.web/store": [ "apps/velzon-app/src/app/store/index.ts" ],
+       	"@velzon.web/store/layout-selector": [ "apps/velzon-app/src/app/store/layouts/layout-selector.ts" ],
+        "@velzon.web/store/layout-action": [ "apps/velzon-app/src/app/store/layouts/layout-action.ts" ],
+        "@velzon.web/public/*": [ "apps/velzon-app/public/*" ],
+		}
+  },
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./tsconfig.editor.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ],
+  "extends": "../../tsconfig.base.json",
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

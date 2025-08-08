@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DapperExt</id>
+    <version>1.0.0</version>
+    <authors>Siltec Software</authors>
+    <owners>Siltec Software</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Dapper" version="1.60.6" exclude="Build,Analyzers" />
+        <dependency id="GodSharp.Data.Dapper" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="Oracle.ManagedDataAccess.Core" version="2.19.60" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Projetos\Siltec\SmartBusiness\vs1.bdoracle\DapperExt\bin\Debug\netstandard2.0\DapperExt.dll" target="lib\netstandard2.0\DapperExt.dll" />
+  </files>
+</package>

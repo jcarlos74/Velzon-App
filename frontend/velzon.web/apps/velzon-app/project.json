@@ -1,0 +1,105 @@
+{
+  "name": "velzon-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app-root",
+  "sourceRoot": "apps/velzon-app/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:webpack-browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/velzon-app",
+        "index": "apps/velzon-app/src/index.html",
+        "main": "apps/velzon-app/src/main.ts",
+        "polyfills": ["zone.js"],
+        "tsConfig": "apps/velzon-app/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+         "assets": [
+             {
+              "glob": "**/*",
+              "input": "apps/velzon-app/public",
+              "output": "assets"
+            },
+            {
+              "glob": "**/*",
+              "input": "libs/velzon-sdk/src/assets",
+              "output": "assets"
+            }
+        ],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/velzon-sdk/src/assets"]
+        },
+        "styles": [
+             "libs/velzon-sdk/src/assets/scss/config/corporate/bootstrap.scss",
+             "libs/velzon-sdk/src/assets/scss/config/corporate/app.scss",
+             "libs/velzon-sdk/src/assets/scss/icons.scss",
+             "apps/velzon-app/src/styles.scss"
+        ],
+        "scripts": [],
+        "customWebpackConfig": {
+          "path": "apps/velzon-app/webpack.config.ts"
+        }
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "sourceMap": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@nx/angular:module-federation-dev-server",
+       "options": {
+        "proxyConfig": "apps/velzon-app/proxy.config.json",
+        "port": 4200,
+        "publicHost": "http://localhost:4200",
+        "devRemotes": ["velzon-cta"]
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "velzon-app:build:production"
+        },
+        "development": {
+          "buildTarget": "velzon-app:build:development",
+          "port": 4200
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "velzon-app:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/velzon-app/jest.config.ts"
+      }
+    }
+  }
+}

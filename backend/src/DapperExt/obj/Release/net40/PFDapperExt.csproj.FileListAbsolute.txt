@@ -1,0 +1,10 @@
+C:\Work\Fontes_Versao_3\PFDapperExt\bin\Release\net40\PFDapperExt.dll
+C:\Work\Fontes_Versao_3\PFDapperExt\bin\Release\net40\PFDapperExt.pdb
+C:\Work\Fontes_Versao_3\PFDapperExt\bin\Release\net40\Dapper.dll
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Release\net40\PFDapperExt.csproj.CoreCompileInputs.cache
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Release\net40\PFDapperExt.AssemblyInfoInputs.cache
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Release\net40\PFDapperExt.AssemblyInfo.cs
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Release\net40\PFDapperExt.csproj.CopyComplete
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Release\net40\PFDapperExt.dll
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Release\net40\PFDapperExt.pdb
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Release\net40\PFDapperExt.csprojAssemblyReference.cache

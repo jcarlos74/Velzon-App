@@ -1,0 +1,66 @@
+
+  <!--conteúdo do Grid-->
+  <div class="row container-grid" [ngStyle]="{ '--row-height': rowHeight + 'px' }">
+
+    <ejs-grid
+        #grid
+        [dataSource]="dataSource"
+        locale="pt-BR"
+        title=""
+        [allowPaging]="true"
+        [allowSorting]="true"
+        (queryCellInfo)='queryCellInfo($event)'
+        [allowFiltering]="showFilters"
+        [allowExcelExport]="true"
+        [allowPdfExport]="true"
+        [allowGrouping]="showGrouping"
+        [groupSettings]='groupOptions'
+        [filterSettings]='filterSettings'
+        [searchSettings]="searchSettings"
+        [showColumnMenu]='true'
+        [allowResizing]="true"
+        [allowReordering]="true"
+        [allowRowDragAndDrop]="allowRowDragAndDrop"
+        [gridLines]='gridLines'
+        [loadingIndicator]='loadingIndicator'
+        [columns]="columns"
+        [pageSettings]='pageOptions'
+        [rowHeight]='rowHeight'
+        height="100%"
+        width="100%"
+        [toolbar]='toolbar'
+        (toolbarClick)="toolBarClikc($event)"
+        [editSettings]='editSettings'
+        (created)="onGridCreated()"
+     >
+     <ng-template #template2 let-data>
+        <button ejs-dropdownbutton [items]='exportItems' (select)='exportGrid($event)' content='Exportar'></button>`
+    </ng-template>
+    <e-columns>
+
+        <ng-container #container *ngFor="let col of columns">
+            <e-column [field]="col.field" [headerText]="col.headerText" [width]="col.width || 120" [textAlign]="col.textAlign || 'Left'" [type]="col.type || 'string'" [showInColumnChooser]='true' ></e-column>
+         </ng-container>
+
+
+        <e-column *ngIf="showActions" headerText="Ações" width="100" textAlign="Center" freeze='Fixed'>
+          <ng-template #template let-data>
+            <div class="col-sm-2">
+                <a rel='nofollow' href="javascript:void(0);" title="Editar Registro" (click)="editRecord(data)" class="link-editar"><i class="ri-edit-2-line"></i> Editar </a>
+                <a rel='nofollow' href="javascript:void(0);" title="Excluir ou Inativar" (click)="editRecord(data)" class="link-excluir"> <i class="ri-delete-bin-3-line"></i>  Excluir</a>
+               <!-- <button type="button" *ngIf="showActionDelete" class="btn btn-sm btn-ghost-danger waves-effect material-shadow-none" title="Excluir/Inativar" ><i class="ri-delete-bin-3-line"></i> {{actionDeleteText}}</button>-->
+            </div>
+          </ng-template>
+        </e-column>
+
+      </e-columns>
+
+     <ng-template #emptyRecordTemplate>
+        <div class='emptyRecordTemplate'>
+          <!--  <img [src]="imageSrc()" class="e-emptyRecord" alt="No record"> -->
+            <span>Não há dados disponíveis para exibição no momento.</span>
+        </div>
+    </ng-template>
+    </ejs-grid>
+  </div>
+

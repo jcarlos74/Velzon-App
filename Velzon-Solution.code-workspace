@@ -1,0 +1,227 @@
+{
+  "folders": [
+     {
+      "name": "🔧 Raiz",
+      "path": "."
+    },
+    {
+      "name": "🔧 Backend (.NET)",
+      "path": "./backend"
+    },
+    {
+      "name": "🌐 Frontend (Angular NX)", 
+      "path": "./frontend"
+    }
+  ],
+  "settings": {
+    "omnisharp.defaultLaunchSolution": ".\backend\Velzon.sln",
+    "dotnet.defaultSolution": ".\backend\Velzon.sln",
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/bin": true,
+      "**/obj": true,
+      "**/.nx": true,
+      "**/dist": true,
+      "**/.angular": true
+    },
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "angular.enable-strict-mode-prompt": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.js",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "*.jsx": "${capture}.js",
+      "*.tsx": "${capture}.js",
+      "tsconfig.json": "tsconfig.*.json",
+      "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+      "*.csproj": "${capture}.csproj.user"
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell",
+        "args": ["-NoLogo"]
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      }
+    },
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bin": true,
+      "**/obj": true,
+      "**/.nx": true,
+      "**/dist": true
+    }
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "🚀 Iniciar Full Stack",
+        "type": "shell",
+        "command": "powershell",
+        "args": [
+          "-ExecutionPolicy", "Bypass",
+          "-File", "${workspaceFolder}\\scripts\\auto-start.ps1"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "panel": "new"
+        },
+        "problemMatcher": [],
+        "runOptions": {
+          "runOn": "folderOpen"
+        }
+      },
+      {
+        "label": "🔧 Iniciar Backend API",
+        "type": "shell",
+        "command": "dotnet",
+        "args": ["run", "--project", "src\Velzon.Api"],
+        "options": {
+          "cwd": "${workspaceFolder}\backend"
+        },
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "new",
+          "group": "backend"
+        },
+        "problemMatcher": "$msCompile"
+      },
+      {
+        "label": "🌐 Iniciar Frontend Shell",
+        "type": "shell", 
+        "command": "npx",
+        "args": ["nx", "serve", "velzon-app"],
+        "options": {
+          "cwd": "${workspaceFolder}\frontend\velzon.web"
+        },
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "new",
+          "group": "frontend"
+        }
+      },
+      {
+        "label": "📦 Instalar Dependências",
+        "type": "shell",
+        "command": "powershell",
+        "args": [
+          "-ExecutionPolicy", "Bypass", 
+          "-File", "${workspaceFolder}\scripts\install-dependencies.ps1"
+        ],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "panel": "new"
+        }
+      },
+      {
+        "label": "🔨 Build Full Stack",
+        "dependsOrder": "parallel",
+        "dependsOn": [
+          "Build Backend",
+          "Build Frontend"
+        ],
+        "group": "build"
+      },
+      {
+        "label": "Build Backend",
+        "type": "shell",
+        "command": "dotnet",
+        "args": ["build"],
+        "options": {
+          "cwd": "${workspaceFolder}\backend"
+        },
+        "group": "build",
+        "problemMatcher": "$msCompile"
+      },
+      {
+        "label": "Build Frontend",
+        "type": "shell",
+        "command": "npx",
+        "args": ["nx", "build", "velzon-app"],
+        "options": {
+          "cwd": "${workspaceFolder}\frontend\velzon.web"
+        },
+        "group": "build"
+      }
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "🔧 Debug Backend API",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "Build Backend",
+        "program": "${workspaceFolder}\backend\src\Velzon.Api\bin\Debug\net9.0\Velzon.Api.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}\backend\src\Velzon.Api",
+        "stopAtEntry": false,
+        "serverReadyAction": {
+          "action": "openExternally",
+          "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+        },
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      },
+      {
+        "name": "🌐 Debug Frontend (Edge)",
+        "type": "msedge",
+        "request": "launch",
+        "url": "http://localhost:4200",
+        "webRoot": "${workspaceFolder}\frontend\velzon.web\apps\velzon-app\src",
+        "sourceMaps": true
+      }
+    ],
+    "compounds": [
+      {
+        "name": "🚀 Debug Full Stack",
+        "configurations": [
+          "🔧 Debug Backend API",
+          "🌐 Debug Frontend (Edge)"
+        ],
+        "stopAll": true
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-dotnettools.csharp",
+      "ms-dotnettools.vscode-dotnet-runtime",
+      "angular.ng-template",
+      "nrwl.angular-console",
+      "ms-vscode.powershell",
+      "bradlc.vscode-tailwindcss",
+      "esbenp.prettier-vscode",
+      "ms-vscode.vscode-typescript-next",
+      "johnpapa.angular2",
+      "ms-vscode.vscode-edge-devtools"
+    ]
+  }
+}

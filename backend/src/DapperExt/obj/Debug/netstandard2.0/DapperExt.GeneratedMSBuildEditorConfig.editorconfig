@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = DapperExt
+build_property.ProjectDir = E:\siltec\projetos\velzon\backend\src\DapperExt\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

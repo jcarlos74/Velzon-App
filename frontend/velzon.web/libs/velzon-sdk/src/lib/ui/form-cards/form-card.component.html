@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-lg-12">
+       <div class="card contentDiv">
+        <!--Header-->
+        <div *ngIf="hasHeader" class="card-header align-items-center d-flex">
+            <h4 class="card-title mb-0 flex-grow-1">{{title}}</h4>
+            <div class="flex-shrink-0">
+                <div class="form-check form-switch form-switch-right form-switch-md">
+                   <ng-content select="[card-header]"></ng-content>
+                  <!-- <div class="hstack gap-2 justify-content-end"  >
+                      <button type="button" class="btn btn-primary btn-sm"  [disabled]="!buttonAddEnabled" title=''><i class="ri-add-fill"></i>  {{buttonAddTitle}}</button>
+                      <button type="button" class="btn btn-success btn-sm" [disabled]="!buttonSaveEnabled" ><i class="ri-check-line"></i>  {{buttonSaveTitle}}</button>
+                      <button type="button" class="btn btn-primary btn-sm"  [disabled]="!buttonCancelEnabled" ><i class="ri-arrow-go-back-line"></i>  {{buttonCancelTitle}}</button>
+                  </div>-->
+                </div>
+            </div>
+        </div><!-- end card header -->
+        <!--Body-->
+        <div class="card-body">
+            <div>
+              <ng-content></ng-content>
+            </div>
+        </div>
+        <!--Footer-->
+        <div *ngIf="hasFooter" class="card-footer">
+             <ng-content select="[card-footer]"></ng-content>
+        </div>
+
+</div>

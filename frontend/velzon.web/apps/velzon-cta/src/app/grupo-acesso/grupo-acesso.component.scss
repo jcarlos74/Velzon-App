@@ -1,0 +1,72 @@
+
+
+/* Cabeçalho */
+.e-grid .e-headercell {
+    background-color: #f5f5f5;
+    border-right: 1px solid #d6d6d6;
+    color: #333;
+    font-weight: 600;
+    padding: 8px;
+  }
+
+
+  .e-grid .e-headercell:last-child {
+    border-right: none;
+  }
+
+  /* Linhas do conteúdo */
+  .e-grid .e-rowcell {
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 8px;
+    color: #333;
+    background-color: #fff;
+  }
+
+  .e-grid .e-rowcell:last-child {
+    border-right: none;
+  }
+
+  /* Hover nas linhas */
+  .e-grid .e-row:hover .e-rowcell {
+    background-color: #f0f8ff;
+  }
+
+  /* Linha selecionada */
+  .e-grid .e-selectionbackground,
+  .e-grid .e-selectionbackground.e-active {
+    background-color: #cce5ff !important;
+  }
+
+  /* Filtros */
+  .e-grid .e-filterbarcell input {
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    border-radius: 2px;
+  }
+
+  /* Remover estilos arredondados */
+  .e-grid .e-gridheader,
+  .e-grid .e-gridcontent {
+    border-radius: 0;
+  }
+
+  /* Estilo dos botões (ex: paginação, exportar, etc.) */
+  .e-grid .e-btn {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    padding: 4px 8px;
+    font-size: 13px;
+  }
+
+  .e-grid .e-btn:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Paginação */
+  .e-grid .e-pager {
+    background-color: #fafafa;
+    border-top: 1px solid #d6d6d6;
+  }

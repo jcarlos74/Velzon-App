@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "UGiJtGu1eg+XobEW2D1Pr8mnJ6qnu8ZRtYyVDVq6Y4g=",
+  "Source": "Velzon.Api",
+  "BasePath": "_content/Velzon.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

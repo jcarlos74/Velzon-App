@@ -1,0 +1,22 @@
+.top-search {
+
+  padding-top: 1px !important;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-actions {
+    grid-column: span 3;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }

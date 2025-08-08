@@ -1,0 +1,17 @@
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\DapperExt.dll
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\DapperExt.pdb
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\Dapper.dll
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\GodSharp.Data.Dapper.dll
+E:\Projetos\Siltec\DapperExt\obj\Debug\net451\DapperExt.csproj.CoreCompileInputs.cache
+E:\Projetos\Siltec\DapperExt\obj\Debug\net451\DapperExt.AssemblyInfoInputs.cache
+E:\Projetos\Siltec\DapperExt\obj\Debug\net451\DapperExt.AssemblyInfo.cs
+E:\Projetos\Siltec\DapperExt\obj\Debug\net451\DapperExt.csproj.CopyComplete
+E:\Projetos\Siltec\DapperExt\obj\Debug\net451\DapperExt.dll
+E:\Projetos\Siltec\DapperExt\obj\Debug\net451\DapperExt.pdb
+E:\Projetos\Siltec\DapperExt\obj\Debug\net451\DapperExt.csprojAssemblyReference.cache
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\Npgsql.dll
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\System.Buffers.dll
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\System.Memory.dll
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\System.Threading.Tasks.Extensions.dll
+E:\Projetos\Siltec\DapperExt\bin\Debug\net451\System.ValueTuple.dll

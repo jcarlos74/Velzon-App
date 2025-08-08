@@ -1,0 +1,4 @@
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\x86\Debug\net40\PFDapperExt.csproj.CoreCompileInputs.cache
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\x86\Debug\net40\PFDapperExt.AssemblyInfoInputs.cache
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\x86\Debug\net40\PFDapperExt.AssemblyInfo.cs
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\x86\Debug\net40\PFDapperExt.csprojAssemblyReference.cache

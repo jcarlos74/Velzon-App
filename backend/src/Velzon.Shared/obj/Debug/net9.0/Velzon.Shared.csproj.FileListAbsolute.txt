@@ -1,0 +1,11 @@
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\bin\Debug\net9.0\Velzon.Shared.deps.json
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\bin\Debug\net9.0\Velzon.Shared.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\bin\Debug\net9.0\Velzon.Shared.pdb
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\obj\Debug\net9.0\Velzon.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\obj\Debug\net9.0\Velzon.Shared.AssemblyInfoInputs.cache
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\obj\Debug\net9.0\Velzon.Shared.AssemblyInfo.cs
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\obj\Debug\net9.0\Velzon.Shared.csproj.CoreCompileInputs.cache
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\obj\Debug\net9.0\Velzon.Shared.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\obj\Debug\net9.0\refint\Velzon.Shared.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\obj\Debug\net9.0\Velzon.Shared.pdb
+E:\siltec\projetos\velzon\backend\src\Velzon.Shared\obj\Debug\net9.0\ref\Velzon.Shared.dll

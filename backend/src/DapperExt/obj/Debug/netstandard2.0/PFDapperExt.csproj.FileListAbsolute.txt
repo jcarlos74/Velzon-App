@@ -1,0 +1,12 @@
+C:\CSPS\Debug\netstandard2.0\PFDapperExt.deps.json
+C:\CSPS\Debug\netstandard2.0\PFDapperExt.dll
+C:\CSPS\Debug\netstandard2.0\PFDapperExt.pdb
+C:\Work\Fontes_Versao_3\PFDapperExt\bin\Debug\netstandard2.0\PFDapperExt.deps.json
+C:\Work\Fontes_Versao_3\PFDapperExt\bin\Debug\netstandard2.0\PFDapperExt.dll
+C:\Work\Fontes_Versao_3\PFDapperExt\bin\Debug\netstandard2.0\PFDapperExt.pdb
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Debug\netstandard2.0\PFDapperExt.csproj.CoreCompileInputs.cache
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Debug\netstandard2.0\PFDapperExt.AssemblyInfoInputs.cache
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Debug\netstandard2.0\PFDapperExt.AssemblyInfo.cs
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Debug\netstandard2.0\PFDapperExt.dll
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Debug\netstandard2.0\PFDapperExt.pdb
+C:\Work\Fontes_Versao_3\PFDapperExt\obj\Debug\netstandard2.0\PFDapperExt.csprojAssemblyReference.cache

@@ -1,0 +1,33 @@
+ <!-- Essa div vai ser transferida para componente datagrid -->
+<div class="row align-items-start">
+  <!--Pesquisa-->
+  <div class="col-sm-4">
+        <div class="form-icon">
+            <input type="text"  (keyup)="globalFilterChanged($event)" class="form-control form-control-sm form-control-icon" id="txtPesquisa"  placeholder="Pesquisar..." autocomplete="off">
+            <i class="ri-search-line"></i>
+        </div>
+  </div>
+  <!--Outras ações-->
+  <div class="col-lg-4">
+    <ul class="list-inline mb-0">
+        <li class="list-inline-item">
+            <a  href="javascript:void(0);" routerLink="" (click)="inserirNovo($event)" class="lh-1 align-middle link-info" title="Inserir Novo"><i class="ri-add-line ri-xl"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="javascript:void(0);" class="lh-1 align-middle link-warning" title="Atualizar"><i class="ri-refresh-line ri-xl"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="javascript:void(0);" class="lh-1 align-middle link-primary" title="Imprimir"><i class="ri-printer-line ri-xl"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="javascript:void(0);" class="lh-1 align-middle link-success" title="Exportar"><i class="ri-file-excel-line ri-xl"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="javascript:void(0);" class="lh-1 align-middle link-danger"><i class="ri-slack-fill ri-xl"></i></a>
+        </li>
+    </ul>
+  </div>
+
+</div>
+
+<hr style="border-top: 1px dotted rgb(51, 52, 52); margin-top: 6px;"/>

@@ -1,0 +1,149 @@
+/*::ng-deep é necessário aqui porque o Syncfusion aplica estilos em nível global e o encapsulamento do Angular não os afeta por padrão.*/
+::ng-deep .e-grid .e-row {
+    height: var(--row-height) !important;
+    max-height: var(--row-height) !important;
+    min-height: var(--row-height) !important;
+  }
+
+  ::ng-deep .e-grid .e-rowcell {
+    line-height: var(--row-height);
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  ::ng-deep .e-grid .e-rowcell .e-btn,
+  ::ng-deep .e-grid .e-templatecell .e-btn {
+    font-size: 10px;
+    padding: 2px 8px;
+    height: calc(var(--row-height) - 8px) ;  /* pequeno ajuste */
+    line-height: 1;
+  }
+
+  ::ng-deep .action-btn {
+    font-size: 10px;
+    padding: 2px 8px;
+    height: calc(var(--row-height) - 6px);
+    line-height: 1;
+  }
+
+.container-grid {
+
+    width: 100%;
+    height: calc(67vh - 3rem);
+}
+
+/* Estilo geral do grid */
+.e-grid {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+}
+
+.e-grid .e-headercell:last-child {
+    border-right: none;
+}
+
+/* Cabeçalho */
+.e-grid .e-headercell {
+    background-color: #f5f5f5;
+    border-right: 1px solid #d6d6d6;
+    color: #333;
+    font-weight: 600;
+    padding-right: 8px;
+    margin: 1px;
+  }
+
+/* Linhas do conteúdo
+.e-grid .e-rowcell {
+   border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 8px;
+    color: #333;
+    background-color: #fff;
+  }
+
+  .e-grid .e-rowcell:last-child {
+    border-right: none;
+  }
+  */
+  /* Hover nas linhas */
+  .e-grid .e-row:hover .e-rowcell {
+    background-color: #81a0bc;
+  }
+
+  /* Linha selecionada */
+  .e-grid .e-selectionbackground,
+  .e-grid .e-selectionbackground.e-active {
+    background-color: #bce2ea !important;
+
+  }
+
+  /* Filtros */
+  .e-grid .e-filterbarcell input {
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    border-radius: 2px;
+  }
+
+
+
+  /* Remover estilos arredondados */
+  .e-grid .e-gridheader,
+  .e-grid .e-gridcontent {
+    border-radius: 0;
+  }
+
+  /* Estilo dos botões (ex: paginação, exportar, etc.) */
+  .e-grid .e-btn {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    padding: 4px 8px;
+    font-size: 13px;
+  }
+
+  .e-grid .e-btn:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Paginação */
+  .e-grid .e-pager {
+    background-color: #fafafa;
+    border-top: 1px solid #d6d6d6;
+  }
+
+ /* Toolbar */
+ .e-grid .e-toolbar-items {
+    background-color: #deecf9;
+    height: 38px;
+    padding-left: 4px;
+    padding-top: 8px;
+}
+.grid-highlight {
+    background-color: yellow;
+}
+
+/* Customização do icone de ordenação */
+.e-grid .e-icon-ascending::before {
+    content: '\e7a3'; /* Icon code for ascending order */
+}
+.e-grid .e-icon-descending::before {
+    content: '\e7b6'; /* Icon code for descending order */
+}
+.e-grid .e-sortnumber {
+    background-color: #deecf9;
+    font-family: cursive;
+}
+
+/* Group header */
+.e-grid .e-groupdroparea {
+    background-color: #d1ddeb;
+    color: rgb(17, 17, 17);
+}
+
+.link-editar{color:rgb(46, 98, 175);}
+.link-editar:hover { color: #148714; } /* CSS link hover (green) */
+
+.link-excluir {color:red;}

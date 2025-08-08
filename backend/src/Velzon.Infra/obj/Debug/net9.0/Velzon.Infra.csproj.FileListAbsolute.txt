@@ -1,0 +1,17 @@
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\bin\Debug\net9.0\Velzon.Infra.deps.json
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\bin\Debug\net9.0\Velzon.Infra.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\bin\Debug\net9.0\Velzon.Infra.pdb
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\bin\Debug\net9.0\DapperExt.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\bin\Debug\net9.0\Velzon.Core.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\bin\Debug\net9.0\Velzon.Core.pdb
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\bin\Debug\net9.0\DapperExt.pdb
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\Velzon.Infra.csproj.AssemblyReference.cache
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\Velzon.Infra.GeneratedMSBuildEditorConfig.editorconfig
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\Velzon.Infra.AssemblyInfoInputs.cache
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\Velzon.Infra.AssemblyInfo.cs
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\Velzon.Infra.csproj.CoreCompileInputs.cache
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\Velzon.I.389CB8BB.Up2Date
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\Velzon.Infra.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\refint\Velzon.Infra.dll
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\Velzon.Infra.pdb
+E:\siltec\projetos\velzon\backend\src\Velzon.Infra\obj\Debug\net9.0\ref\Velzon.Infra.dll

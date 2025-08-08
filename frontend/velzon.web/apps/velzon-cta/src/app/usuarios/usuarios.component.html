@@ -1,0 +1,77 @@
+<sdk-breadcrumbs title="Perfil de Usuários" [breadcrumbItems]="breadCrumbItems"></sdk-breadcrumbs>
+
+<sdk-form-card title="Usuários cadastrados" buttonAddTitle="Incluir">
+
+
+    <div class="row">
+
+       <div id="area-grid">
+            <sdk-datagrid
+            [dataSource]="dataSource"
+            [columns]="columns"
+            [rowHeight]="29"
+            [allowFiltering]="true"
+            (onAdd)="onAddRecord($event)"
+
+                ></sdk-datagrid>
+       </div>
+       
+       <div id="area-form" #targetModal class="col-md-12 control-section" style="height:550px;">
+
+            <sdk-dialog-crud #dialogCrud [width]='width' [header]="header">
+
+                <form [formGroup]="form"  (ngSubmit)="onSubmit()" class="form-grid">
+                    <div class="field-grid">
+                      <ng-container *ngFor="let key of fieldKeys">
+                        <ng-container
+                          [ngTemplateOutlet]="fieldTemplate"
+                          [ngTemplateOutletContext]="{ key: key }"
+                        ></ng-container>
+                      </ng-container>
+                    </div>
+
+                    <div class="form-actions">
+                      <button ejs-button type="submit" [disabled]="form.invalid">Salvar</button>
+                    </div>
+                  </form>
+                  <ng-template #fieldTemplate let-key="key">
+                    <div class="form-field">
+                      <label *ngIf="metadata[key].type !== 'checkbox'">{{ metadata[key].label }}</label>
+
+                      <ejs-textbox *ngIf="metadata[key].type === 'text'" [formControlName]="key"></ejs-textbox>
+                      <ejs-numerictextbox *ngIf="metadata[key].type === 'number'" [formControlName]="key"></ejs-numerictextbox>
+                      <ejs-datepicker *ngIf="metadata[key].type === 'date'" [formControlName]="key"></ejs-datepicker>
+                      <ejs-checkbox
+                        *ngIf="metadata[key].type === 'checkbox'"
+                        [label]="metadata[key].label"
+                        [formControlName]="key"
+                      ></ejs-checkbox>
+                      <ejs-dropdownlist
+                        *ngIf="metadata[key].type === 'dropdown'"
+                        [dataSource]="metadata[key].options"
+                        [fields]="{ text: 'label', value: 'value' }"
+                        [formControlName]="key"
+                      ></ejs-dropdownlist>
+                      <ejs-autocomplete
+                        *ngIf="metadata[key].type === 'autocomplete'"
+                        [dataSource]="metadata[key].options"
+                        [fields]="{ text: 'label', value: 'value' }"
+                        [placeholder]="metadata[key].label"
+                        [formControlName]="key"
+                      ></ejs-autocomplete>
+
+                      <div class="error" *ngIf="form.get(key)?.invalid && form.get(key)?.touched">
+                        <small *ngIf="form.get(key)?.errors?.['required']">Campo obrigatório</small>
+                      </div>
+                    </div>
+                  </ng-template>
+            </sdk-dialog-crud>
+
+
+
+       </div>
+
+    </div>
+
+
+</sdk-form-card>
