@@ -74,7 +74,7 @@ Após iniciar os serviços:
 |---------|-----|-----------|
 | 🔧 **Backend API** | https://localhost:5001 | API REST principal |
 | 🌐 **Frontend Shell** | http://localhost:4200 | Aplicação principal |
-| 📊 **Controle de Acesso** | http://localhost:4201 | Micro-frontend Dashboard |
+| 📊 **Controle de Acesso** | http://localhost:4201 | Micro-frontend Controle de Acesso |
 | 👥 **Users MF** | http://localhost:4202 | Micro-frontend Usuários |
 
 ## 🎯 Scripts Disponíveis
