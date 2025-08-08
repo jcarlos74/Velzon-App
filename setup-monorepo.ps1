@@ -6,7 +6,7 @@ Set-Location $basePath
 if (-not (Test-Path ".git")) {
     Write-Host "Inicializando repositório Git..."
     git init
-    git remote add origin https://github.com/jcarlos74/Velzon-App,00.git
+    git remote add origin https://github.com/jcarlos74/Velzon-App.git
 }
 
 # Criar diretórios se não existirem
