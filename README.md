@@ -1,6 +1,6 @@
 # Velzon FullStack Solution
 
-🚀 **Projeto Full-Stack com .NET 8, Angular 18 e Micro-frontends usando NX**
+🚀 **Projeto Full-Stack com .NET 9, Angular 18 e Micro-frontends usando NX**
 
 ## 🛠️ Tecnologias
 
